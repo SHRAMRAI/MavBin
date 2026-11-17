@@ -107,5 +107,5 @@ Then open a pull request on GitHub with base `dev`, ask one teammate to review i
 
 - [x] All five teammates invited with write access. Accept from your email or at https://github.com/SHRAMRAI/MavBin/invitations.
 - [x] Default branch set to `dev`.
-- [ ] **Shramika:** protect `main` and `dev` (Settings → Branches: require a pull request, 1 approval, no force pushes). This needs GitHub Pro on a private repo, which is free with the Student Developer Pack. Only the repo owner can change settings.
+- [x] `main` and `dev` protected: a pull request with 1 approval is required, and force pushes and deletions are blocked.
 - [ ] **Prajita:** add the backlog stories as Issues so PRs can close them.
