@@ -1,0 +1,21 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# os / editors
+.DS_Store
+.vscode/
+
+# arduino / build output
+build/
+
+# data and media: keep in Edge Impulse or the shared drive, link in docs/
+dataset/
+data/
+*.mov
+*.mp4
