@@ -12,8 +12,8 @@ A camera on a Raspberry Pi identifies each item dropped into the bin, and a rota
 
 | Role | Member | Owns (ADS subsystem) |
 |---|---|---|
-| Product Owner | Shramika | Backlog, priorities, acceptance criteria |
-| Scrum Master | Prajita (@gyawaliprajita50) | Reviews and merges into `dev` and `main`, repo settings, sprint records |
+| Product Owner | Shramika (@SHRAMRAI) | Backlog, priorities, acceptance criteria, repo settings (repo owner) |
+| Scrum Master | Prajita (@gyawaliprajita50) | Merges PRs into `dev` and `main`, backlog issues, sprint records |
 | Software | Masma (@masma108) | D2 Vision: dataset, model, accuracy tests |
 | Software | Salsabeel (@salsabeelhossain) | D3 Sort Controller, D5 Event Uploader, Pi setup, model deployment |
 | Hardware | Sudip (@sudippaudel01) | H1 Imaging Chamber, H2 Sorting Mechanism, H3 Fill Sensors |
@@ -54,7 +54,7 @@ Docs, test results, and the dataset link go in `docs/`. Anyone can open a small 
 **First time**
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/SHRAMRAI/MavBin.git
 cd MavBin
 git checkout <your-branch>
 ```
@@ -103,9 +103,9 @@ Then open a pull request on GitHub with base `dev`, ask one teammate to review i
 
 ---
 
-## Scrum Master setup (@gyawaliprajita50)
+## Repo setup
 
-1. **Settings → Collaborators:** invite all five teammates.
-2. **Settings → Branches:** add rules for `main` and `dev`: require a pull request, require 1 approval, and block force pushes.
-3. **Settings → General:** set the default branch to `dev`.
-4. **Projects:** create a board and add the backlog stories as issues so PRs can close them.
+- [x] All five teammates invited with write access. Accept from your email or at https://github.com/SHRAMRAI/MavBin/invitations.
+- [x] Default branch set to `dev`.
+- [ ] **Shramika:** protect `main` and `dev` (Settings → Branches: require a pull request, 1 approval, no force pushes). This needs GitHub Pro on a private repo, which is free with the Student Developer Pack. Only the repo owner can change settings.
+- [ ] **Prajita:** add the backlog stories as Issues so PRs can close them.
